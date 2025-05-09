@@ -1,0 +1,721 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1" name="viewport" />
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- Font Awesome -->
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+  <link rel="icon" href="images/image.png" />
+  <link rel="stylesheet" href="css/home-2.css">
+  <title>Foodzy</title>
+</head>
+
+<body>
+  <!-- header  -->
+  <section class="header pt-3">
+    <div class="top-header">
+      <div class="container d-flex align-items-center justify-content-between pb-3 ">
+        <a class="navbar-brand fw-bold" href="#">Foodzy</a>
+        <nav class="navbar navbar-expand-lg bg-body-light">
+          <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+              aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarSupportedContent">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <div class="dropdown">
+                <button class="btn  dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Category
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </div>
+              <div class="dropdown">
+                <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="true">
+                  Products
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </div>
+              <div class="dropdown">
+                <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Pages
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="home-1.html">Home-1</a></li>
+                  <li><a class="dropdown-item" href="home-2.html">Home-2</a></li>
+                  <li><a class="dropdown-item" href="home-3.html">Home-3</a></li>
+                </ul>
+              </div>
+              <div class="dropdown">
+                <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Blog
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="blog.html">blog</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </div>
+              <div class="dropdown">
+                <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Element
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </div>
+
+            </div>
+          </div>
+        </nav>
+        <div class="contact-top-header d-flex align-items-center gap-2 d-none d-lg-block ">
+          <span class=""><i class="fa-solid fa-phone"></i></span>
+          <span class="">+123 (456) (7890)</span>
+        </div>
+      </div>
+
+    </div>
+    <div class="bottom-header pt-2 pb-0">
+      <div class="container d-flex flex-column flex-lg-row gap-5 align-items-center justify-content-between ps-0 pb-3">
+        <div class="logo-bottom-header d-flex align-items-center ">
+          <img width="100px" src="images/image.png" alt="">
+          <div class="name-project">
+            <h3 class="fw-bold mb-0">Foodzy</h3>
+            <h6>A Treasure of Tastes</h6>
+          </div>
+        </div>
+        <div class="search-box w-75 ">
+          <form class="d-flex border border-1 rounded-3 py-1 ps-3" role="search">
+            <input class="form-control me-2 border-0 px-0" type="search" placeholder="Search For items..."
+              aria-label="Search">
+            <div class="dropdown border-start border-1">
+              <button class="btn  dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Category
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </div>
+            <button class="btn rounded-start-0 rounded-3" style="background-color: #F53E32;" type="submit">
+              <i class="fa-solid fa-magnifying-glass text-light"></i>
+            </button>
+          </form>
+        </div>
+        <div class="icons-bottom-header d-flex align-items-center justify-content-evenly gap-lg-1 w-50">
+          <div class="i d-md-flex align-items-center">
+            <i class="fa-solid fa-user me-1"></i>
+            <span class="fw-bold">Account</span>
+          </div>
+          <div class="i d-md-flex align-items-center">
+            <i class="fa-regular fa-heart me-1"></i>
+            <span class="fw-bold">Wishlist</span>
+          </div>
+          <div class="i d-md-flex align-items-center">
+            <i class="fa-solid fa-cart-shopping me-1"></i>
+            <span class="fw-bold">Cart</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- hero section  -->
+  <section class="hero-sec">
+    <div>
+      <div class="freepik-img">
+        <img src="./images/freepik__background__90128 1.png" alt="food image" />
+      </div>
+    </div>
+    <div class="container">
+      <button class="btn-order">
+        <span class="arrow-right"><i class="fa-solid fa-arrow-right"></i></span>
+        Order Now
+      </button>
+      <div class="number-and-website">
+        <p>609-791-3583</p>
+        <p>www.exemple.com</p>
+      </div>
+    </div>
+  </section>
+  <!-- foods section  -->
+  <section class="foods container">
+    <div class="row">
+      <div class="col-lg-4">
+        <div>
+          <p>Cake & Milk</p>
+          <p>(65 items)</p>
+        </div>
+        <div>
+          <p>Fresh Meat</p>
+          <p>(30 items)</p>
+        </div>
+        <div>
+          <p>Vegetables</p>
+          <p>(25 items)</p>
+        </div>
+        <div>
+          <p>Apple & Mango</p>
+          <p>(45 items)</p>
+        </div>
+        <div>
+          <p>Strawberry</p>
+          <p>(68 items)</p>
+        </div>
+        <div>
+          <button>View More</button>
+        </div>
+      </div>
+      <div class="col-lg-4 mb-2 mt-2">
+        <div class="pic-food">
+          <img src="././images/3.jpg.png" alt="food" />
+          <img class="layer" src="./images/__after (1).png" alt="layer" />
+          <span class="discount">50
+            <div class="about-dis">
+              <span>%</span>
+              <span>OFF</span>
+            </div>
+          </span>
+        </div>
+        <div>
+          <p>Cake</p>
+          <button>shop now</button>
+        </div>
+      </div>
+      <div class="col-lg-4 mb-2">
+        <div class="pic-food">
+          <img src="././images/4.jpg.png" alt="food" />
+          <img class="layer" src="././images/__after (1).png" alt="layer" />
+          <span class="discount">50 <span>%</span> <span>OFF</span></span>
+        </div>
+        <div>
+          <p>Cake</p>
+          <button>shop now</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- popular products  -->
+  <section class="popular-products">
+    <h3 class="text-center">Popular Products</h3>
+    <p class="text-center">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt ut labore lacus vel facilisis.
+    </p>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3">
+          <div>
+            <ul class="links my-3">
+              <li>
+                <a href="#">All</a> <i class="fa-solid fa-arrow-right"></i>
+              </li>
+              <li>
+                <a href="#">Snack</a> <i class="fa-solid fa-arrow-right"></i>
+              </li>
+              <li>
+                <a href="#">Vegetable</a>
+                <i class="fa-solid fa-arrow-right"></i>
+              </li>
+              <li>
+                <a href="#">Fruit</a> <i class="fa-solid fa-arrow-right"></i>
+              </li>
+              <li>
+                <a href="#">Bakery</a> <i class="fa-solid fa-arrow-right"></i>
+              </li>
+            </ul>
+          </div>
+          <img class="w-100" src="././images/div.banner-img.png" alt="" />
+        </div>
+        <div class="col-lg-9 text-center my-3">
+          <div class="row">
+            <div class="col-md-4 pb-2">
+              <div class="cart">
+                <img class="w-100 pt-1" src="././images/div.cr-product-image.png" alt="product" />
+                <h3 class="cart-title">Fruits</h3>
+                <div class="cart-icons">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <span>(5)</span>
+                </div>
+                <p class="cart-text">Fresh organic apple 1kg simla marming</p>
+                <div class="price text-danger fw-bolder">
+                  $120.25 <del>$123.25</del>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 pb-2">
+              <div class="cart">
+                <img class="w-100 pt-1" src="././images/div.cr-product-image (1).png" alt="product" />
+                <h3 class="cart-title">Snacks</h3>
+                <div class="cart-icons">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <span>(5)</span>
+                </div>
+                <p class="cart-text">Best snakes with hazel nut pack 200gm</p>
+                <div class="price text-danger fw-bolder">
+                  $120.25 <del>$123.25</del>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 pb-2">
+              <div class="cart">
+                <img class="w-100 pt-1" src="././images/div.cr-product-image (2).png" alt="product" />
+                <h3 class="cart-title">Vegetables</h3>
+                <div class="cart-icons">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <span>(5)</span>
+                </div>
+                <p class="cart-text">Fresh organic apple 1kg simla marming</p>
+                <div class="price text-danger fw-bolder">
+                  $120.25 <del>$123.25</del>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 pb-2">
+              <div class="cart">
+                <img class="w-100 pt-1" src="./images/div.cr-product-image (3).png" alt="product" />
+                <h3 class="cart-title">Bakery</h3>
+                <div class="cart-icons">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <span>(5)</span>
+                </div>
+                <p class="cart-text">
+                  Delicious white baked fresh bread and toast
+                </p>
+                <div class="price text-danger fw-bolder">
+                  $120.25 <del>$123.25</del>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 pb-2">
+              <div class="cart">
+                <img class="w-100 pt-1" src="./images/div.cr-product-image (4).png" alt="product" />
+                <h3 class="cart-title">Snacks</h3>
+                <div class="cart-icons">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <span>(5)</span>
+                </div>
+                <p class="cart-text">
+                  Delicious white baked fresh bread and toast
+                </p>
+                <div class="price text-danger fw-bolder">
+                  $120.25 <del>$123.25</del>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 pb-2">
+              <div class="cart">
+                <img class="w-100 pt-1" src="./images/div.cr-product-image (5).png" alt="product" />
+                <h3 class="cart-title">Fruits</h3>
+                <div class="cart-icons">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <span>(5)</span>
+                </div>
+                <p class="cart-text">
+                  Organic fresh venila farm watermelon 5kg
+                </p>
+                <div class="price text-danger fw-bolder">
+                  $120.25 <del>$123.25</del>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- card food section -->
+  <section class="card-food my-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 mb-2">
+          <div class="card-item1 p-4">
+            <h3 class="w-75">Healthy Bakery Products</h3>
+            <div>
+              <span class="percentage text-danger fw-bolder">30%</span>
+              <span> Off on first order</span>
+            </div>
+            <button class="btn btn-danger mt-3">shop now</button>
+          </div>
+        </div>
+        <div class="col-lg-4 mb-2">
+          <div class="card-item2 p-4">
+            <h3 class="w-75">Fresh Snacks & Sweets</h3>
+            <div>
+              <span class="percentage text-danger fw-bolder">20%</span>
+              <span> Off on first order</span>
+            </div>
+            <button class="btn btn-danger mt-2 mt-3">shop now</button>
+          </div>
+        </div>
+        <div class="col-lg-4 mb-2">
+          <div class="card-item3 p-4">
+            <h3 class="w-75">Fresh & healthy Organic Fruits</h3>
+            <div>
+              <span class="percentage text-danger fw-bolder">35%</span>
+              <span> Off on first order</span>
+            </div>
+            <button class="btn btn-danger mt-3">shop now</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- services section  -->
+  <section class="services my-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 mb-2">
+          <div class="service p-5">
+            <h3>Product Packing</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+          </div>
+        </div>
+        <div class="col-lg-3 mb-2">
+          <div class="service p-5">
+            <h3>Product Packing</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+          </div>
+        </div>
+        <div class="col-lg-3 mb-2">
+          <div class="service p-5">
+            <h3>Product Packing</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+          </div>
+        </div>
+        <div class="col-lg-3 mb-2">
+          <div class="service p-5">
+            <h3>Product Packing</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- full-sec section  -->
+  <section class="full-sec">
+    <div class="container position-relative">
+      <div class="inner-card p-4">
+        <div>
+          <span class="percentage text-danger fw-bolder">35%</span>
+          <span class="off"> OFF</span>
+        </div>
+        <h3 class="fw-bold">Great deal on organic food.</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          maecenas accumsan lacus vel facilisis.
+        </p>
+        <div class="countdown p-3">
+          <ul class="p-3">
+            <li class="dot">
+              <p class="fw-bolder">326</p>
+              <span>Days</span>
+            </li>
+            <li class="dot">
+              <p class="fw-bolder">03</p>
+              <span>Hrs</span>
+            </li>
+            <li class="dot">
+              <p class="fw-bolder">06</p>
+              <span>Min</span>
+            </li>
+            <li>
+              <p class="fw-bolder">52</p>
+              <span>Sec</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- more-food-pic section  -->
+  <section class="more-food-pic my-5">
+    <div class="container">
+      <div class="row justify-content-between">
+        <div class="img-one col-lg-3 mb-2"></div>
+        <div class="img-two col-lg-3 mb-2"></div>
+        <div class="img-three col-lg-5 mb-2">
+          <div class="w-75 p-3">
+            <h3>Organic & Healthy Vegetables</h3>
+            <div class="my-3 fw-bolder">
+              <span>25% </span>
+              <span>OFF</span>
+            </div>
+            <button class="btn btn-danger text-white">shop now</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- great-words-sec section  -->
+  <section class="great-words-sec text-center my-5">
+    <div class="container">
+      <h2>Great Words From People</h2>
+      <p class="mb-5 w-50 m-auto">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+        eiusmod tempor incididunt ut labore lacus vel facilisis.
+      </p>
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="words-one py-5 px-4">
+            <div class="img-person">
+              <img src="./images/p1.jpg" alt="" />
+            </div>
+            <span>Co Founder</span>
+            <h4 class="fw-bolder">Stephen Smith</h4>
+            <p>
+              “eiusmpsu dolor sit amet, conse cte tur ng elit, sed do eiusmod
+              tem lacus vel facilisis.”
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="words-two py-5 px-4">
+            <div class="img-person">
+              <img src="./images/p2.jpg" alt="" />
+            </div>
+            <span>Co Founder</span>
+            <h4 class="fw-bolder">Stephen Smith</h4>
+            <p>
+              “eiusmpsu dolor sit amet, conse cte tur ng elit, sed do eiusmod
+              tem lacus vel facilisis.”
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="words-three py-5 px-4">
+            <div class="img-person">
+              <img src="./images/p3.jpg" alt="" />
+            </div>
+            <span>Co Founder</span>
+            <h4 class="fw-bolder">Stephen Smith</h4>
+            <p>
+              “eiusmpsu dolor sit amet, conse cte tur ng elit, sed do eiusmod
+              tem lacus vel facilisis.”
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- news section  -->
+  <section class="news py-5">
+    <div class="container">
+      <h2 class="text-center">Latest News</h2>
+      <p class="mb-5 w-50 m-auto">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+        eiusmod tempor incididunt ut labore lacus vel facilisis.
+      </p>
+      <div class="row">
+        <div class="col-lg-4 mb-2">
+          <div class="cover">
+            <div class="main-card p-3">
+              <p>By Admin | Snacks</p>
+              <p class="my-2 fw-bold">
+                Urna pretium elit mauris cursus at elit Vestibulum.
+              </p>
+              <p class="text-success mb-2">Read More</p>
+            </div>
+            <div>
+              <img class="w-100" src="./images/f1.jpg" alt="" />
+            </div>
+            <div class="date">
+              <p>10</p>
+              <p>oct</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 mb-2">
+          <div class="cover">
+            <div class="main-card p-3">
+              <p>By Admin | Snacks</p>
+              <p class="my-2 fw-bold">
+                Urna pretium elit mauris cursus at elit Vestibulum.
+              </p>
+              <p class="text-success mb-2">Read More</p>
+            </div>
+            <div>
+              <img class="w-100" src="./images/f2.png" alt="" />
+            </div>
+            <div class="date">
+              <p>10</p>
+              <p>oct</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 mb-2">
+          <div class="cover">
+            <div class="main-card p-3">
+              <p>By Admin | Snacks</p>
+              <p class="my-2 fw-bold">
+                Urna pretium elit mauris cursus at elit Vestibulum.
+              </p>
+              <p class="text-success mb-2">Read More</p>
+            </div>
+            <div>
+              <img class="w-100" src="./images/f3.jpg" alt="" />
+            </div>
+            <div class="date">
+              <p>10</p>
+              <p>oct</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <section class="footer" style="background-color: #F7F7F8;">
+    <footer class="mt-5 pt-5 position-relative overflow-hidden font-poppins">
+      <div class="container">
+        <div class="row row-cols-1 row-cols-md-4 g-4">
+          <div class="col-12">
+            <div class="">
+              <div class="d-flex align-items-center mb-3">
+                <img width="50px" src="images/logo.png" alt="">
+                <div class="name-project">
+                  <h3 class="fw-bold mb-0" style="font-size: 16px;">Foodzy</h3>
+                  <h6 style="font-size: 12px;color: gray;">A Treasure of Tastes</h6>
+                </div>
+              </div>
+              <p style="font-size: 12px;color: gray;">
+                FoodTrove is the biggest market of grocery products. Get your
+                daily needs from our store.
+              </p>
+              <div class="d-flex align-items-start">
+                <i class="fas fa-map-marker-alt text-danger me-2" style="margin-top: 5px;font-size: 12px;"></i>
+                <span style="font-size: 12px;color: gray;">51 Green St. Huntington Ohio Beach Ontario,
+                  NY 11746 KY 4783,USA.</span>
+              </div>
+              <p class="">
+
+              </p>
+              <p class="d-flex align-items-center text-gray-600 small">
+                <i class="fas fa-envelope text-danger me-2" style="margin-top: 5px;font-size: 12px;"></i>
+                <a class="text-decoration-none text-gray-600 hover-text-danger" href="mailto:example@email.com">
+                  example@email.com
+                </a>
+              </p>
+              <p class="d-flex align-items-start">
+                <i class="fas fa-phone-alt text-danger me-2" style="margin-top: 5px;font-size: 12px;"></i>
+                <span style="font-size: 12px;color: gray;">+91 123 4567890</span>
+              </p>
+            </div>
+          </div>
+          <div class="col-12 ">
+            <div class="">
+              <h3 class="mb-3 fs-5">Company</h3>
+              <ul class="list-unstyled ">
+                <li class="mb-2"><a class="" href="#">About Us</a></li>
+                <li class="mb-2"><a class="" href="#">DeliveryInformation</a></li>
+                <li class="mb-2"><a class="" href="#">Privacy Policy</a></li>
+                <li class="mb-2"><a class="" href="#">Terms & Conditions</a></li>
+                <li class="mb-2"><a class="" href="#">Contact Us</a></li>
+                <li class="mb-2"><a class="" href="#">Support Center</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-12 ">
+            <div class="">
+              <h3 class="mb-3 fs-5">Category</h3>
+              <ul class="list-unstyled small ">
+                <li class="mb-2"><a class="" href="#">Dairy & Bakery</a></li>
+                <li class="mb-2"><a href="#">Fruits & Vegetable</a></li>
+                <li class="mb-2"><a href="#">Snack & Spice</a> </li>
+                <li class="mb-2"><a href="#">Juice & Drinks</a></li>
+                <li class="mb-2"><a href="#">Chicken & Meat</a></li>
+                <li class="mb-2"><a href="#">Fast Food</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-12">
+            <div>
+              <h3 class="mb-3 fs-5">
+                Subscribe Our Newsletter
+              </h3>
+              <form class="d-flex align-items-center mb-3">
+                <input class="form-control rounded px-3 py-1 me-2 " placeholder="Search here.." type="text" />
+                <button aria-label="Send newsletter subscription" class="btn  fs-5" type="submit">
+                  <i class="fas fa-paper-plane"></i>
+                </button>
+              </form>
+              <div class="d-flex gap-3 mb-3">
+                <a aria-label="Facebook" href="#"><i class="fab fa-facebook-f"></i></a>
+                <a aria-label="Twitter" class="text-gray-500 hover-text-gray-900" href="#"><i
+                    class="fab fa-twitter"></i></a>
+                <a aria-label="Dribbble" href="#"><i class="fab fa-dribbble"></i></a>
+                <a aria-label="Instagram" href="#"><i class="fab fa-instagram"></i></a>
+              </div>
+              <div class="row g-2">
+                <div class="col">
+                  <img alt="Small image of fresh vegetables in a basket" class="img-fluid rounded"
+                    src="https://storage.googleapis.com/a1aa/image/b0e2f62e-e26a-433d-f13a-ea7c18c3a698.jpg" />
+                </div>
+                <div class="col">
+                  <img alt="Small image of assorted fresh vegetables and fruits" class="img-fluid rounded"
+                    src="https://storage.googleapis.com/a1aa/image/dc690329-3d7b-418c-5f1b-3a911382c4dc.jpg" />
+                </div>
+                <div class="col">
+                  <img alt="Small image of fresh vegetables with nuts and spices" class="img-fluid rounded"
+                    src="https://storage.googleapis.com/a1aa/image/a1554f52-c216-45f7-cac9-ce07c24dd672.jpg" />
+                </div>
+                <div class="col">
+                  <img alt="Small image of fresh red vegetables and herbs" class="img-fluid rounded"
+                    src="https://storage.googleapis.com/a1aa/image/1cd0895b-ae7d-4887-a35e-c07453ce0ebe.jpg" />
+                </div>
+                <div class="col">
+                  <img alt="Small image of fresh green vegetables and fruits" class="img-fluid rounded"
+                    src="https://storage.googleapis.com/a1aa/image/a2bfa6a8-efb6-440b-c492-7eedb50e7dde.jpg" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr class="m-0" />
+      </div>
+      <p class="py-4 m-0 text-center">&copy; <span style="color:#F53E32">Furniro </span>All rights reserved.</p>
+    </footer>
+  </section>
+  <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

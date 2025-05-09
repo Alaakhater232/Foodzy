@@ -1,0 +1,1056 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="icon" href="images/image.png" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/home-3.css" />
+    <title>Foodzy</title>
+</head>
+<body>
+    <!-- header  -->
+    <section class="header pt-3">
+        <div class="top-header">
+            <div class="container d-flex align-items-center justify-content-between pb-3 ">
+                <a class="navbar-brand fw-bold" href="#">Foodzy</a>
+                <nav class="navbar navbar-expand-lg bg-body-light">
+                    <div class="container-fluid">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            <div class="dropdown">
+                                <button class="btn  dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Category
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </div>
+                            <div class="dropdown">
+                                <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                                    aria-expanded="true">
+                                    Products
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </div>
+                            <div class="dropdown">
+                                <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Pages
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="home-1.html">Home-1</a></li>
+                                    <li><a class="dropdown-item" href="home-2.html">Home-2</a></li>
+                                    <li><a class="dropdown-item" href="home-3.html">Home-3</a></li>
+                                </ul>
+                            </div>
+                            <div class="dropdown">
+                                <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Blog
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="blog.html">blog</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </div>
+                            <div class="dropdown">
+                                <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Element
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+                </nav>
+                <div class="contact-top-header d-flex align-items-center gap-2 d-none d-lg-block ">
+                    <span class=""><i class="fa-solid fa-phone"></i></span>
+                    <span class="">+123 (456) (7890)</span>
+                </div>
+            </div>
+
+        </div>
+        <div class="bottom-header pt-2 pb-0">
+            <div
+                class="container d-flex flex-column flex-lg-row gap-5 align-items-center justify-content-between ps-0 pb-3">
+                <div class="logo-bottom-header d-flex align-items-center ">
+                    <img width="100px" src="images/image.png" alt="">
+                    <div class="name-project">
+                        <h3 class="fw-bold mb-0">Foodzy</h3>
+                        <h6>A Treasure of Tastes</h6>
+                    </div>
+                </div>
+                <div class="search-box w-75 ">
+                    <form class="d-flex border border-1 rounded-3 py-1 ps-3" role="search">
+                        <input class="form-control me-2 border-0 px-0" type="search" placeholder="Search For items..."
+                            aria-label="Search">
+                        <div class="dropdown border-start border-1">
+                            <button class="btn  dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Category
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </div>
+                        <button class="btn rounded-start-0 rounded-3" style="background-color: #F53E32;" type="submit">
+                            <i class="fa-solid fa-magnifying-glass text-light"></i>
+                        </button>
+                    </form>
+                </div>
+                <div class="icons-bottom-header d-flex align-items-center justify-content-evenly gap-lg-1 w-50">
+                    <div class="i d-md-flex align-items-center">
+                        <i class="fa-solid fa-user me-1"></i>
+                        <span class="fw-bold">Account</span>
+                    </div>
+                    <div class="i d-md-flex align-items-center">
+                        <i class="fa-regular fa-heart me-1"></i>
+                        <span class="fw-bold">Wishlist</span>
+                    </div>
+                    <div class="i d-md-flex align-items-center">
+                        <i class="fa-solid fa-cart-shopping me-1"></i>
+                        <span class="fw-bold">Cart</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- hero section  -->
+    <section class="hero position-relative">
+        <div class="front-hero w-50">
+            <p class="fw-bold "><span class="fw-bold text-decoration-underline p-2"
+                    style="color: #F53E32;">100%</span>Organic Vegetables</p>
+            <h1 class="fw-bold w-100 w-md-75 mb-4">The best way to stuff your wallet.</h1>
+            <p class="w-100 w-md-75 text-body-tertiary mb-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Quaerat autem aspernatur beatae laborum, et ipsam.</p>
+
+            <div class="subscribe-email position-relative">
+                <form class="">
+                    <input class="w-100 w-xl-50  py-3 px-4 border-0 rounded-5" type="email"
+                        placeholder="Your email address">
+                    <button class="btn btn-subscribe py-3 px-4 border-0 rounded-5 text-white position-absolute"
+                        style="background-color: #3BB77E;">Subscribe</button>
+            </div>
+            </form>
+        </div>
+        <img class="img-hero position-absolute d-none d-xl-block" src="images/banner-13.png" alt="">
+        <img class="img-after position-absolute bottom-0 start-0 d-none d-xl-block" src="images/before-3.png" alt="">
+        <img class="position-absolute top-0 start-0 d-none d-xl-block" src="images/before-1.png" alt="">
+        <img class="position-absolute top-0 end-50 d-none d-xl-block" src="images/before-2.png" alt="">
+        <img class="position-absolute bottom-25 start-50 d-none d-xl-block" src="images/before-4.png" alt="">
+    </section>
+    <!-- popular-products section -->
+    <section class="py-5">
+        <div class="container">
+            <div class="header-products d-flex justify-content-between mb-4">
+                <h4 class="fs-5">Popular Products</h4>
+                <div class="btns-header">
+                    <button class="btn">All</button>
+                    <button class="btn">Fruits</button>
+                    <button class="btn">Vegetables</button>
+                    <button class="btn">Meat</button>
+                    <!-- <button class="btn">Seafood</button> -->
+                </div>
+            </div>
+            <div class="popular-products">
+                <div class="container">
+                    <div class="row flex-column flex-md-row justify-content-start  mb-3">
+                        <div
+                            class="popular-product p-3 col-12 col-md-6 col-lg-3 rounded-3 border border-light-subtle position-relative overflow-hidden">
+                            <div class="img-product w-100 text-center">
+                                <img class="w-75 " src="images/popular/product-1.png" alt="">
+                            </div>
+                            <p class="text-body-tertiary mb-2">Snak</p>
+                            <h6 class="w-75">Fresh organic villa farm lomon 500gm pack</h6>
+                            <div class="rating d-flex gap-2">
+                                <div class="stars">
+                                    <img style="width: 15px;" src="images/star.PNG" alt="">
+                                    <img style="width: 15px;" src="images/star.PNG" alt="">
+                                    <img style="width: 15px;" src="images/star.PNG" alt="">
+                                    <img style="width: 15px;" src="images/star.PNG" alt="">
+                                </div>
+                                <p class="text-body-tertiary">(4.0)</p>
+                            </div>
+                            <p style="color: #F53E32;"><span class="text-body-tertiary px-1">By</span>NestFood</p>
+                            <div class="footer-product d-flex justify-content-between">
+                                <div class="price-product">
+                                    <span class="fw-bold fs-5" style="color: #3BB77E;">$50.25</span>
+                                    <span class="text-decoration-line-through text-body-tertiary">$80.25</span>
+                                </div>
+                                <button class="btn btn-product py-2 px-3 border-0 rounded-2 text-white">Add To
+                                    Cart</button>
+                            </div>
+                            <div class="sale text-center text-white d-flex justify-content-center align-items-center">
+                                sale</div>
+                        </div>
+                        <div
+                            class="popular-product p-3 col-12 col-md-6 col-lg-3 rounded-3 border border-light-subtle position-relative overflow-hidden">
+                            <div class="img-product w-100 text-center">
+                                <img class="w-75" src="images/popular/product-2.png" alt="">
+                            </div>
+                            <p class="text-body-tertiary mb-2">Snak</p>
+                            <h6 class="w-75">Fresh organic villa farm lomon 500gm pack</h6>
+                            <div class="rating d-flex gap-2">
+                                <div class="stars">
+                                    <img style="width: 15px;" src="images/star.PNG" alt="">
+                                    <img style="width: 15px;" src="images/star.PNG" alt="">
+                                    <img style="width: 15px;" src="images/star.PNG" alt="">
+                                    <img style="width: 15px;" src="images/star.PNG" alt="">
+                                </div>
+                                <p class="text-body-tertiary">(4.0)</p>
+                            </div>
+                            <p style="color: #F53E32;"><span class="text-body-tertiary px-1">By</span>NestFood</p>
+                            <div class="footer-product d-flex justify-content-between">
+                                <div class="price-product">
+                                    <span class="fw-bold fs-5" style="color: #3BB77E;">$50.25</span>
+                                    <span class="text-decoration-line-through text-body-tertiary">$80.25</span>
+                                </div>
+                                <button class="btn btn-product py-2 px-3 border-0 rounded-2 text-white">Add To
+                                    Cart</button>
+                            </div>
+                            <div class="sale text-center text-white d-flex justify-content-center align-items-center">
+                                sale</div>
+                        </div>
+                        <div
+                            class="popular-product p-3 col-12 col-md-6 col-lg-3 rounded-3 border border-light-subtle position-relative overflow-hidden">
+                            <div class="img-product w-100 text-center">
+                                <img class="w-75" src="images/popular/product-3.png" alt="">
+                            </div>
+                            <p class="text-body-tertiary mb-2">Snak</p>
+                            <h6 class="w-75">Fresh organic villa farm lomon 500gm pack</h6>
+                            <div class="rating d-flex gap-2">
+                                <div class="stars">
+                                    <img style="width: 15px;" src="images/star.PNG" alt="">
+                                    <img style="width: 15px;" src="images/star.PNG" alt="">
+                                    <img style="width: 15px;" src="images/star.PNG" alt="">
+                                    <img style="width: 15px;" src="images/star.PNG" alt="">
+                                </div>
+                                <p class="text-body-tertiary">(4.0)</p>
+                            </div>
+                            <p style="color: #F53E32;"><span class="text-body-tertiary px-1">By</span>NestFood</p>
+                            <div class="footer-product d-flex justify-content-between">
+                                <div class="price-product">
+                                    <span class="fw-bold fs-5" style="color: #3BB77E;">$50.25</span>
+                                    <span class="text-decoration-line-through text-body-tertiary">$80.25</span>
+                                </div>
+                                <button class="btn btn-product py-2 px-3 border-0 rounded-2 text-white">Add To
+                                    Cart</button>
+                            </div>
+                            <div class="sale text-center text-white d-flex justify-content-center align-items-center">
+                                sale</div>
+                        </div>
+                        <div
+                            class="popular-product p-3 col-12 col-md-6 col-xl-3 rounded-3 border border-light-subtle position-relative overflow-hidden">
+                            <div class="img-product w-100 text-center">
+                                <img class="w-75" src="images/popular/product-4.png" alt="">
+                            </div>
+                            <p class="text-body-tertiary mb-2">Snak</p>
+                            <h6 class="w-75">Fresh organic villa farm lomon 500gm pack</h6>
+                            <div class="rating d-flex gap-2">
+                                <div class="stars">
+                                    <img style="width: 15px;" src="images/star.PNG" alt="">
+                                    <img style="width: 15px;" src="images/star.PNG" alt="">
+                                    <img style="width: 15px;" src="images/star.PNG" alt="">
+                                    <img style="width: 15px;" src="images/star.PNG" alt="">
+                                </div>
+                                <p class="text-body-tertiary">(4.0)</p>
+                            </div>
+                            <p style="color: #F53E32;"><span class="text-body-tertiary px-1">By</span>NestFood</p>
+                            <div class="footer-product d-flex justify-content-between">
+                                <div class="price-product">
+                                    <span class="fw-bold fs-5" style="color: #3BB77E;">$50.25</span>
+                                    <span class="text-decoration-line-through text-body-tertiary">$80.25</span>
+                                </div>
+                                <button class="btn btn-product py-2 px-3 border-0 rounded-2 text-white">Add To
+                                    Cart</button>
+                            </div>
+                            <div class="sale text-center text-white d-flex justify-content-center align-items-center">
+                                sale</div>
+                        </div>
+                    </div>
+                    <div class="row flex-column flex-md-row  mb-3">
+                        <div
+                            class="popular-product p-3 col-12 col-md-6 col-xl-3 rounded-3 border border-light-subtle position-relative overflow-hidden">
+                            <div class="img-product w-100 text-center">
+                                <img class="w-75" src="images/popular/product-6.png" alt="">
+                            </div>
+                            <p class="text-body-tertiary mb-2">Snak</p>
+                            <h6 class="w-75">Fresh organic villa farm lomon 500gm pack</h6>
+                            <div class="rating d-flex gap-2">
+                                <div class="stars">
+                                    <img style="width: 15px;" src="images/star.PNG" alt="">
+                                    <img style="width: 15px;" src="images/star.PNG" alt="">
+                                    <img style="width: 15px;" src="images/star.PNG" alt="">
+                                    <img style="width: 15px;" src="images/star.PNG" alt="">
+                                </div>
+                                <p class="text-body-tertiary">(4.0)</p>
+                            </div>
+                            <p style="color: #F53E32;"><span class="text-body-tertiary px-1">By</span>NestFood</p>
+                            <div class="footer-product d-flex justify-content-between">
+                                <div class="price-product">
+                                    <span class="fw-bold fs-5" style="color: #3BB77E;">$50.25</span>
+                                    <span class="text-decoration-line-through text-body-tertiary">$80.25</span>
+                                </div>
+                                <button class="btn btn-product py-2 px-3 border-0 rounded-2 text-white">Add To
+                                    Cart</button>
+                            </div>
+                            <div class="sale text-center text-white d-flex justify-content-center align-items-center">
+                                sale</div>
+                        </div>
+                        <div
+                            class="popular-product p-3 col-12 col-md-6 col-xl-3 rounded-3 border border-light-subtle position-relative overflow-hidden">
+                            <div class="img-product w-100 text-center">
+                                <img class="w-75" src="images/popular/product-7.png" alt="">
+                            </div>
+                            <p class="text-body-tertiary mb-2">Snak</p>
+                            <h6 class="w-75">Fresh organic villa farm lomon 500gm pack</h6>
+                            <div class="rating d-flex gap-2">
+                                <div class="stars">
+                                    <img style="width: 15px;" src="images/star.PNG" alt="">
+                                    <img style="width: 15px;" src="images/star.PNG" alt="">
+                                    <img style="width: 15px;" src="images/star.PNG" alt="">
+                                    <img style="width: 15px;" src="images/star.PNG" alt="">
+                                </div>
+                                <p class="text-body-tertiary">(4.0)</p>
+                            </div>
+                            <p style="color: #F53E32;"><span class="text-body-tertiary px-1">By</span>NestFood</p>
+                            <div class="footer-product d-flex justify-content-between">
+                                <div class="price-product">
+                                    <span class="fw-bold fs-5" style="color: #3BB77E;">$50.25</span>
+                                    <span class="text-decoration-line-through text-body-tertiary">$80.25</span>
+                                </div>
+                                <button class="btn btn-product py-2 px-3 border-0 rounded-2 text-white">Add To
+                                    Cart</button>
+                            </div>
+                            <div class="sale text-center text-white d-flex justify-content-center align-items-center">
+                                sale</div>
+                        </div>
+                        <div
+                            class="popular-product p-3 col-12 col-md-6 col-xl-3 rounded-3 border border-light-subtle position-relative overflow-hidden">
+                            <div class="img-product w-100 text-center">
+                                <img class="w-75" src="images/popular/product-8.png" alt="">
+                            </div>
+                            <p class="text-body-tertiary mb-2">Snak</p>
+                            <h6 class="w-75">Fresh organic villa farm lomon 500gm pack</h6>
+                            <div class="rating d-flex gap-2">
+                                <div class="stars">
+                                    <img style="width: 15px;" src="images/star.PNG" alt="">
+                                    <img style="width: 15px;" src="images/star.PNG" alt="">
+                                    <img style="width: 15px;" src="images/star.PNG" alt="">
+                                    <img style="width: 15px;" src="images/star.PNG" alt="">
+                                </div>
+                                <p class="text-body-tertiary">(4.0)</p>
+                            </div>
+                            <p style="color: #F53E32;"><span class="text-body-tertiary px-1">By</span>NestFood</p>
+                            <div class="footer-product d-flex justify-content-between">
+                                <div class="price-product">
+                                    <span class="fw-bold fs-5" style="color: #3BB77E;">$50.25</span>
+                                    <span class="text-decoration-line-through text-body-tertiary">$80.25</span>
+                                </div>
+                                <button class="btn btn-product py-2 px-3 border-0 rounded-2 text-white">Add To
+                                    Cart</button>
+                            </div>
+                            <div class="sale text-center text-white d-flex justify-content-center align-items-center">
+                                sale</div>
+                        </div>
+                        <div
+                            class="popular-product p-3 col-12 col-md-6 col-xl-3 rounded-3 border border-light-subtle position-relative overflow-hidden">
+                            <div class="img-product w-100 text-center">
+                                <img class="w-75" src="images/popular/product-9.png" alt="">
+                            </div>
+                            <p class="text-body-tertiary mb-2">Snak</p>
+                            <h6 class="w-75">Fresh organic villa farm lomon 500gm pack</h6>
+                            <div class="rating d-flex gap-2">
+                                <div class="stars">
+                                    <img style="width: 15px;" src="images/star.PNG" alt="">
+                                    <img style="width: 15px;" src="images/star.PNG" alt="">
+                                    <img style="width: 15px;" src="images/star.PNG" alt="">
+                                    <img style="width: 15px;" src="images/star.PNG" alt="">
+                                </div>
+                                <p class="text-body-tertiary">(4.0)</p>
+                            </div>
+                            <p style="color: #F53E32;"><span class="text-body-tertiary px-1">By</span>NestFood</p>
+                            <div class="footer-product d-flex justify-content-between">
+                                <div class="price-product">
+                                    <span class="fw-bold fs-5" style="color: #3BB77E;">$50.25</span>
+                                    <span class="text-decoration-line-through text-body-tertiary">$80.25</span>
+                                </div>
+                                <button class="btn btn-product py-2 px-3 border-0 rounded-2 text-white">Add To
+                                    Cart</button>
+                                <div
+                                    class="sale text-center text-white d-flex justify-content-center align-items-center">
+                                    sale</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Best sells section  -->
+    <section class="py-5">
+        <div class="container">
+            <div class="header-sells d-flex justify-content-between mb-4">
+                <h4>Daily Best Sells</h4>
+                <div class="btns-header">
+                    <button class="btn">All</button>
+                    <button class="btn">Fruits</button>
+                    <button class="btn">Vegetables</button>
+                    <button class="btn">Meat</button>
+                    <!-- <button class="btn">Seafood</button> -->
+                </div>
+            </div>
+            <div class="best-sells">
+                <div class="row gap-1 mb-3">
+                    <div class="banner-sells col-3 position-relative d-none d-xl-block ">
+                        <img class="w-100" src="images/banner-sells.png" alt="">
+                        <h1 class="position-absolute h-banner-sells text-white">Bring nature into your home</h1>
+                        <a
+                            class="position-absolute btn btn-banner-sells py-2 px-4 border-0 rounded-2 text-white a-banner-sells">Shop
+                            Now</a>
+                    </div>
+                    <div
+                        class="row flex-column flex-lg-row justify-content-start gap-3 gap-lg-0 products-sells col-12 col-xl-9 ">
+                        <div
+                            class="popular-product p-3 col-12 col-lg-4 rounded-3 border border-light-subtle position-relative overflow-hidden">
+                            <div class="img-product w-100 text-center">
+                                <img class="w-75 " src="images/popular/product-1.png" alt="">
+                            </div>
+                            <p class="text-body-tertiary mb-2">Snak</p>
+                            <h6 class="w-75">Fresh organic villa farm lomon 500gm pack</h6>
+                            <div class="rating d-flex gap-2">
+                                <div class="stars">
+                                    <img style="width: 15px;" src="images/star.PNG" alt="">
+                                    <img style="width: 15px;" src="images/star.PNG" alt="">
+                                    <img style="width: 15px;" src="images/star.PNG" alt="">
+                                    <img style="width: 15px;" src="images/star.PNG" alt="">
+                                </div>
+                                <p class="text-body-tertiary">(4.0)</p>
+                            </div>
+                            <p style="color: #F53E32;"><span class="text-body-tertiary px-1">By</span>NestFood</p>
+                            <div class="footer-product d-flex justify-content-between">
+                                <div class="price-product">
+                                    <span class="fw-bold fs-5 me-3" style="color: #3BB77E;">$50.25</span>
+                                    <span class="text-decoration-line-through text-body-tertiary">$80.25</span>
+                                </div>
+                            </div>
+                            <button class="btn btn-product py-2 px-3 border-0 rounded-2 text-white w-100 mt-3">Add To
+                                Cart</button>
+                            <div class="sale text-center text-white d-flex justify-content-center align-items-center">
+                                sale</div>
+                        </div>
+                        <div
+                            class="popular-product p-3 col-12 col-lg-4 rounded-3 border border-light-subtle position-relative overflow-hidden">
+                            <div class="img-product w-100 text-center">
+                                <img class="w-75 " src="images/popular/product-1.png" alt="">
+                            </div>
+                            <p class="text-body-tertiary mb-2">Snak</p>
+                            <h6 class="w-75">Fresh organic villa farm lomon 500gm pack</h6>
+                            <div class="rating d-flex gap-2">
+                                <div class="stars">
+                                    <img style="width: 15px;" src="images/star.PNG" alt="">
+                                    <img style="width: 15px;" src="images/star.PNG" alt="">
+                                    <img style="width: 15px;" src="images/star.PNG" alt="">
+                                    <img style="width: 15px;" src="images/star.PNG" alt="">
+                                </div>
+                                <p class="text-body-tertiary">(4.0)</p>
+                            </div>
+                            <p style="color: #F53E32;"><span class="text-body-tertiary px-1">By</span>NestFood</p>
+                            <div class="footer-product d-flex justify-content-between">
+                                <div class="price-product">
+                                    <span class="fw-bold fs-5 me-2" style="color: #3BB77E;">$50.25</span>
+                                    <span class="text-decoration-line-through text-body-tertiary">$80.25</span>
+                                </div>
+                            </div>
+                            <button class="btn btn-product py-2 px-3 border-0 rounded-2 text-white w-100 mt-3">Add To
+                                Cart</button>
+                            <div class="sale text-center text-white d-flex justify-content-center align-items-center">
+                                sale</div>
+                        </div>
+                        <div
+                            class="popular-product p-3 col-12 col-lg-4 rounded-3 border border-light-subtle position-relative overflow-hidden">
+                            <div class="img-product w-100 text-center">
+                                <img class="w-75 " src="images/popular/product-1.png" alt="">
+                            </div>
+                            <p class="text-body-tertiary mb-2">Snak</p>
+                            <h6 class="w-75">Fresh organic villa farm lomon 500gm pack</h6>
+                            <div class="rating d-flex gap-2">
+                                <div class="stars">
+                                    <img style="width: 15px;" src="images/star.PNG" alt="">
+                                    <img style="width: 15px;" src="images/star.PNG" alt="">
+                                    <img style="width: 15px;" src="images/star.PNG" alt="">
+                                    <img style="width: 15px;" src="images/star.PNG" alt="">
+                                </div>
+                                <p class="text-body-tertiary">(4.0)</p>
+                            </div>
+                            <p style="color: #F53E32;"><span class="text-body-tertiary px-1">By</span>NestFood</p>
+                            <div class="footer-product d-flex justify-content-between">
+                                <div class="price-product">
+                                    <span class="fw-bold fs-5 me-2" style="color: #3BB77E;">$50.25</span>
+                                    <span class="text-decoration-line-through text-body-tertiary">$80.25</span>
+                                </div>
+                            </div>
+                            <button class="btn btn-product py-2 px-3 border-0 rounded-2 text-white w-100 mt-3">Add To
+                                Cart</button>
+                            <div class="sale text-center text-white d-flex justify-content-center align-items-center">
+                                sale</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- statistics section  -->
+    <section class="statistics py-5">
+        <div class="container">
+            <div class="row flex-column flex-md-row">
+                <div class="statistic col-12 col-md-6 col-lg-3">
+                    <div class="statistics-header position-relative">
+                        <p class="pb-2 fw-bold border-bottom">Top Selling</p>
+                    </div>
+                    <div class="statistics-body d-flex flex-column">
+                        <div class="card mb-5 border-0 mb-1" style="max-width: 540px;">
+                            <div class="row flex-md-row g-0 justify-content-start">
+                                <div class="col-3 col-md-5  ">
+                                    <img src="images/articale-1.png" class="img-fluid " alt="...">
+                                </div>
+                                <div class="col-9 col-md-7">
+                                    <div class="card-body p-md-0">
+                                        <h6 class="card-title ">Nestle Original Coffee-Mate Coffee Creamer</h6>
+                                        <div class="rating d-flex gap-2">
+                                            <div class="stars">
+                                                <img style="width: 15px;" src="images/star.PNG" alt="">
+                                                <img style="width: 15px;" src="images/star.PNG" alt="">
+                                                <img style="width: 15px;" src="images/star.PNG" alt="">
+                                                <img style="width: 15px;" src="images/star.PNG" alt="">
+                                            </div>
+                                            <p class="text-body-tertiary">(4.0)</p>
+                                        </div>
+                                        <div class="price-deals">
+                                            <span class="fw-bold fs-5" style="color: #3BB77E;">$50.25</span>
+                                            <span class="text-decoration-line-through text-body-tertiary">$80.25</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card mb-5 mb-3 border-0 mb-1" style="max-width: 540px;">
+                            <div class="row flex-md-row g-0 justify-content-start">
+                                <div class="col-3 col-md-5  ">
+                                    <img src="images/articale-1.png" class="img-fluid " alt="...">
+                                </div>
+                                <div class="col-9 col-md-7">
+                                    <div class="card-body p-md-0">
+                                        <h6 class="card-title ">Nestle Original Coffee-Mate Coffee Creamer</h6>
+                                        <div class="rating d-flex gap-2">
+                                            <div class="stars">
+                                                <img style="width: 15px;" src="images/star.PNG" alt="">
+                                                <img style="width: 15px;" src="images/star.PNG" alt="">
+                                                <img style="width: 15px;" src="images/star.PNG" alt="">
+                                                <img style="width: 15px;" src="images/star.PNG" alt="">
+                                            </div>
+                                            <p class="text-body-tertiary">(4.0)</p>
+                                        </div>
+                                        <div class="price-deals">
+                                            <span class="fw-bold fs-5" style="color: #3BB77E;">$50.25</span>
+                                            <span class="text-decoration-line-through text-body-tertiary">$80.25</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card mb-5 mb-3 border-0 mb-1" style="max-width: 540px;">
+                            <div class="row flex-md-row g-0 justify-content-start">
+                                <div class="col-3 col-md-5  ">
+                                    <img src="images/articale-1.png" class="img-fluid " alt="...">
+                                </div>
+                                <div class="col-9 col-md-7">
+                                    <div class="card-body p-md-0">
+                                        <h6 class="card-title ">Nestle Original Coffee-Mate Coffee Creamer</h6>
+                                        <div class="rating d-flex gap-2">
+                                            <div class="stars">
+                                                <img style="width: 15px;" src="images/star.PNG" alt="">
+                                                <img style="width: 15px;" src="images/star.PNG" alt="">
+                                                <img style="width: 15px;" src="images/star.PNG" alt="">
+                                                <img style="width: 15px;" src="images/star.PNG" alt="">
+                                            </div>
+                                            <p class="text-body-tertiary">(4.0)</p>
+                                        </div>
+                                        <div class="price-deals">
+                                            <span class="fw-bold fs-5" style="color: #3BB77E;">$50.25</span>
+                                            <span class="text-decoration-line-through text-body-tertiary">$80.25</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="statistic col-12 col-md-6 col-lg-3">
+                    <div class="statistics-header position-relative">
+                        <p class="pb-2 fw-bold border-bottom">Top Selling</p>
+                    </div>
+                    <div class="statistics-body d-flex flex-column">
+                        <div class="card mb-5 mb-3 border-0 mb-1" style="max-width: 540px;">
+                            <div class="row flex-md-row g-0 justify-content-start">
+                                <div class="col-3 col-md-5  ">
+                                    <img src="images/articale-1.png" class="img-fluid " alt="...">
+                                </div>
+                                <div class="col-9 col-md-7">
+                                    <div class="card-body p-md-0">
+                                        <h6 class="card-title ">Nestle Original Coffee-Mate Coffee Creamer</h6>
+                                        <div class="rating d-flex gap-2">
+                                            <div class="stars">
+                                                <img style="width: 15px;" src="images/star.PNG" alt="">
+                                                <img style="width: 15px;" src="images/star.PNG" alt="">
+                                                <img style="width: 15px;" src="images/star.PNG" alt="">
+                                                <img style="width: 15px;" src="images/star.PNG" alt="">
+                                            </div>
+                                            <p class="text-body-tertiary">(4.0)</p>
+                                        </div>
+                                        <div class="price-deals">
+                                            <span class="fw-bold fs-5" style="color: #3BB77E;">$50.25</span>
+                                            <span class="text-decoration-line-through text-body-tertiary">$80.25</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card mb-5 mb-3 border-0 mb-1" style="max-width: 540px;">
+                            <div class="row flex-md-row g-0 justify-content-start">
+                                <div class="col-3 col-md-5  ">
+                                    <img src="images/articale-1.png" class="img-fluid " alt="...">
+                                </div>
+                                <div class="col-9 col-md-7">
+                                    <div class="card-body p-md-0">
+                                        <h6 class="card-title ">Nestle Original Coffee-Mate Coffee Creamer</h6>
+                                        <div class="rating d-flex gap-2">
+                                            <div class="stars">
+                                                <img style="width: 15px;" src="images/star.PNG" alt="">
+                                                <img style="width: 15px;" src="images/star.PNG" alt="">
+                                                <img style="width: 15px;" src="images/star.PNG" alt="">
+                                                <img style="width: 15px;" src="images/star.PNG" alt="">
+                                            </div>
+                                            <p class="text-body-tertiary">(4.0)</p>
+                                        </div>
+                                        <div class="price-deals">
+                                            <span class="fw-bold fs-5" style="color: #3BB77E;">$50.25</span>
+                                            <span class="text-decoration-line-through text-body-tertiary">$80.25</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card mb-5 mb-3 border-0 mb-1" style="max-width: 540px;">
+                            <div class="row flex-md-row g-0 justify-content-start">
+                                <div class="col-3 col-md-5  ">
+                                    <img src="images/articale-1.png" class="img-fluid " alt="...">
+                                </div>
+                                <div class="col-9 col-md-7">
+                                    <div class="card-body p-md-0">
+                                        <h6 class="card-title ">Nestle Original Coffee-Mate Coffee Creamer</h6>
+                                        <div class="rating d-flex gap-2">
+                                            <div class="stars">
+                                                <img style="width: 15px;" src="images/star.PNG" alt="">
+                                                <img style="width: 15px;" src="images/star.PNG" alt="">
+                                                <img style="width: 15px;" src="images/star.PNG" alt="">
+                                                <img style="width: 15px;" src="images/star.PNG" alt="">
+                                            </div>
+                                            <p class="text-body-tertiary">(4.0)</p>
+                                        </div>
+                                        <div class="price-deals">
+                                            <span class="fw-bold fs-5" style="color: #3BB77E;">$50.25</span>
+                                            <span class="text-decoration-line-through text-body-tertiary">$80.25</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="statistic col-12 col-md-6 col-lg-3">
+                    <div class="statistics-header position-relative">
+                        <p class="pb-2 fw-bold border-bottom">Top Selling</p>
+                    </div>
+                    <div class="statistics-body d-flex flex-column">
+                        <div class="card mb-5 mb-3 border-0 mb-1" style="max-width: 540px;">
+                            <div class="row flex-md-row g-0 justify-content-start">
+                                <div class="col-3 col-md-5  ">
+                                    <img src="images/articale-1.png" class="img-fluid " alt="...">
+                                </div>
+                                <div class="col-9 col-md-7">
+                                    <div class="card-body p-md-0">
+                                        <h6 class="card-title ">Nestle Original Coffee-Mate Coffee Creamer</h6>
+                                        <div class="rating d-flex gap-2">
+                                            <div class="stars">
+                                                <img style="width: 15px;" src="images/star.PNG" alt="">
+                                                <img style="width: 15px;" src="images/star.PNG" alt="">
+                                                <img style="width: 15px;" src="images/star.PNG" alt="">
+                                                <img style="width: 15px;" src="images/star.PNG" alt="">
+                                            </div>
+                                            <p class="text-body-tertiary">(4.0)</p>
+                                        </div>
+                                        <div class="price-deals">
+                                            <span class="fw-bold fs-5" style="color: #3BB77E;">$50.25</span>
+                                            <span class="text-decoration-line-through text-body-tertiary">$80.25</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card mb-5 mb-3 border-0 mb-1" style="max-width: 540px;">
+                            <div class="row flex-md-row g-0 justify-content-start">
+                                <div class="col-3 col-md-5  ">
+                                    <img src="images/articale-1.png" class="img-fluid " alt="...">
+                                </div>
+                                <div class="col-9 col-md-7">
+                                    <div class="card-body p-md-0">
+                                        <h6 class="card-title ">Nestle Original Coffee-Mate Coffee Creamer</h6>
+                                        <div class="rating d-flex gap-2">
+                                            <div class="stars">
+                                                <img style="width: 15px;" src="images/star.PNG" alt="">
+                                                <img style="width: 15px;" src="images/star.PNG" alt="">
+                                                <img style="width: 15px;" src="images/star.PNG" alt="">
+                                                <img style="width: 15px;" src="images/star.PNG" alt="">
+                                            </div>
+                                            <p class="text-body-tertiary">(4.0)</p>
+                                        </div>
+                                        <div class="price-deals">
+                                            <span class="fw-bold fs-5" style="color: #3BB77E;">$50.25</span>
+                                            <span class="text-decoration-line-through text-body-tertiary">$80.25</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card mb-5 mb-3 border-0 mb-1" style="max-width: 540px;">
+                            <div class="row flex-md-row g-0 justify-content-start">
+                                <div class="col-3 col-md-5  ">
+                                    <img src="images/articale-1.png" class="img-fluid " alt="...">
+                                </div>
+                                <div class="col-9 col-md-7">
+                                    <div class="card-body p-md-0">
+                                        <h6 class="card-title ">Nestle Original Coffee-Mate Coffee Creamer</h6>
+                                        <div class="rating d-flex gap-2">
+                                            <div class="stars">
+                                                <img style="width: 15px;" src="images/star.PNG" alt="">
+                                                <img style="width: 15px;" src="images/star.PNG" alt="">
+                                                <img style="width: 15px;" src="images/star.PNG" alt="">
+                                                <img style="width: 15px;" src="images/star.PNG" alt="">
+                                            </div>
+                                            <p class="text-body-tertiary">(4.0)</p>
+                                        </div>
+                                        <div class="price-deals">
+                                            <span class="fw-bold fs-5" style="color: #3BB77E;">$50.25</span>
+                                            <span class="text-decoration-line-through text-body-tertiary">$80.25</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="statistic col-12 col-md-6 col-lg-3">
+                    <div class="statistics-header position-relative">
+                        <p class="pb-2 fw-bold border-bottom">Top Selling</p>
+                    </div>
+                    <div class="statistics-body d-flex flex-column">
+                        <div class="card mb-5 mb-3 border-0 mb-1" style="max-width: 540px;">
+                            <div class="row flex-md-row g-0 justify-content-start">
+                                <div class="col-3 col-md-5  ">
+                                    <img src="images/articale-1.png" class="img-fluid " alt="...">
+                                </div>
+                                <div class="col-9 col-md-7">
+                                    <div class="card-body p-md-0">
+                                        <h6 class="card-title ">Nestle Original Coffee-Mate Coffee Creamer</h6>
+                                        <div class="rating d-flex gap-2">
+                                            <div class="stars">
+                                                <img style="width: 15px;" src="images/star.PNG" alt="">
+                                                <img style="width: 15px;" src="images/star.PNG" alt="">
+                                                <img style="width: 15px;" src="images/star.PNG" alt="">
+                                                <img style="width: 15px;" src="images/star.PNG" alt="">
+                                            </div>
+                                            <p class="text-body-tertiary">(4.0)</p>
+                                        </div>
+                                        <div class="price-deals">
+                                            <span class="fw-bold fs-5" style="color: #3BB77E;">$50.25</span>
+                                            <span class="text-decoration-line-through text-body-tertiary">$80.25</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card mb-5 mb-3 border-0 mb-1" style="max-width: 540px;">
+                            <div class="row flex-md-row g-0 justify-content-start">
+                                <div class="col-3 col-md-5  ">
+                                    <img src="images/articale-1.png" class="img-fluid " alt="...">
+                                </div>
+                                <div class="col-9 col-md-7">
+                                    <div class="card-body p-md-0">
+                                        <h6 class="card-title ">Nestle Original Coffee-Mate Coffee Creamer</h6>
+                                        <div class="rating d-flex gap-2">
+                                            <div class="stars">
+                                                <img style="width: 15px;" src="images/star.PNG" alt="">
+                                                <img style="width: 15px;" src="images/star.PNG" alt="">
+                                                <img style="width: 15px;" src="images/star.PNG" alt="">
+                                                <img style="width: 15px;" src="images/star.PNG" alt="">
+                                            </div>
+                                            <p class="text-body-tertiary">(4.0)</p>
+                                        </div>
+                                        <div class="price-deals">
+                                            <span class="fw-bold fs-5" style="color: #3BB77E;">$50.25</span>
+                                            <span class="text-decoration-line-through text-body-tertiary">$80.25</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card mb-5 mb-3 border-0 mb-1" style="max-width: 540px;">
+                            <div class="row flex-md-row g-0 justify-content-start">
+                                <div class="col-3 col-md-5  ">
+                                    <img src="images/articale-1.png" class="img-fluid " alt="...">
+                                </div>
+                                <div class="col-9 col-md-7">
+                                    <div class="card-body p-md-0">
+                                        <h6 class="card-title ">Nestle Original Coffee-Mate Coffee Creamer</h6>
+                                        <div class="rating d-flex gap-2">
+                                            <div class="stars">
+                                                <img style="width: 15px;" src="images/star.PNG" alt="">
+                                                <img style="width: 15px;" src="images/star.PNG" alt="">
+                                                <img style="width: 15px;" src="images/star.PNG" alt="">
+                                                <img style="width: 15px;" src="images/star.PNG" alt="">
+                                            </div>
+                                            <p class="text-body-tertiary">(4.0)</p>
+                                        </div>
+                                        <div class="price-deals">
+                                            <span class="fw-bold fs-5" style="color: #3BB77E;">$50.25</span>
+                                            <span class="text-decoration-line-through text-body-tertiary">$80.25</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+            </div>
+    </section>
+    <!-- banner-down section  -->
+    <section class="banner py-5">
+        <div class="container overflow-hidden">
+            <div class="banner-down position-relative rounded-4">
+                <div class="layer position-absolute">
+                    <h2 class="w-75">Stay home & get your daily needs from our shop</h2>
+                    <p class="text-body-tertiary mb-4">Start You'r Daily Shopping with <span
+                            style="color: #3BB77E;">Nest Mart</span></p>
+                    <form class="">
+                        <div class="subscribe-email position-relative w-75 ">
+                            <input class="py-3 px-4 border-0 rounded-5" type="email" placeholder="Your email address">
+                            <button class="btn btn-subscribe py-3 px-4 border-0 rounded-5 text-white position-absolute"
+                                style="background-color: #F53E32;">Subscribe</button>
+                        </div>
+                    </form>
+                </div>
+                <img class="img-banner-down position-absolute d-none d-lg-block w-50 " src="images/img-banner.png"
+                    alt="">
+            </div>
+        </div>
+    </section>
+    <!-- services section  -->
+    <section class="services py-3">
+        <div class="container">
+            <div class="row flex-column flex-sm-row flex-lg-row gap-2 justify-content-between">
+                <div class="col-12 col-lg-2 d-flex align-items-center justify-content-evenly  gap-2 py-2 px-3 rounded-3"
+                    style="background-color: #F4F6FA;">
+                    <img class="w-25" src="images/service-1.PNG" alt="">
+                    <div class="info">
+                        <p class="mb-1">Best prices & offers</p>
+                        <p class="text-body-tertiary mb-0">Orders $50 or more</p>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-2 d-flex align-items-center justify-content-evenly  gap-2 py-2 px-3 rounded-3"
+                    style="background-color: #F4F6FA;">
+                    <img class="w-25" src="images/service-2.PNG" alt="">
+                    <div class="info">
+                        <p class="mb-1">Free delivery</p>
+                        <p class="text-body-tertiary mb-0">24/7 amazing services</p>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-2 d-flex align-items-center justify-content-evenly  gap-2 py-2 px-3 rounded-3"
+                    style="background-color: #F4F6FA;">
+                    <img class="w-25" src="images/service-3.PNG" alt="">
+                    <div class="info">
+                        <p class="mb-1">Great daily deal</p>
+                        <p class="text-body-tertiary mb-0">When you sign up</p>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-2 d-flex align-items-center justify-content-evenly  gap-2 py-2 px-3 rounded-3"
+                    style="background-color: #F4F6FA;">
+                    <img class="w-25" src="images/service-4.PNG" alt="">
+                    <div class="info">
+                        <p class="mb-1">Wide assortment</p>
+                        <p class="text-body-tertiary mb-0">Mega Discounts</p>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-2 d-flex align-items-center justify-content-evenly  gap-2 py-2 px-3 rounded-3"
+                    style="background-color: #F4F6FA;">
+                    <img class="w-25" src="images/service-5.PNG" alt="">
+                    <div class="info">
+                        <p class="mb-1">Easy returns</p>
+                        <p class="text-body-tertiary mb-0">Within 30 days</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- footer  -->
+    <section class="footer" style="background-color: #F7F7F8;">
+        <footer class="mt-5 pt-5 position-relative overflow-hidden font-poppins">
+            <div class="container">
+                <div class="row row-cols-1 row-cols-md-4 g-4">
+                    <div class="col-12">
+                        <div class="">
+                            <div class="d-flex align-items-center mb-3">
+                                <img width="50px" src="images/logo.png" alt="">
+                                <div class="name-project">
+                                    <h3 class="fw-bold mb-0" style="font-size: 16px;">Foodzy</h3>
+                                    <h6 style="font-size: 12px;color: gray;">A Treasure of Tastes</h6>
+                                </div>
+                            </div>
+                            <p style="font-size: 12px;color: gray;">
+                                FoodTrove is the biggest market of grocery products. Get your
+                                daily needs from our store.
+                            </p>
+                            <div class="d-flex align-items-start">
+                                <i class="fas fa-map-marker-alt text-danger me-2"
+                                    style="margin-top: 5px;font-size: 12px;"></i>
+                                <span style="font-size: 12px;color: gray;">51 Green St. Huntington Ohio Beach Ontario,
+                                    NY 11746 KY 4783,USA.</span>
+                            </div>
+                            <p class="">
+
+                            </p>
+                            <p class="d-flex align-items-center text-gray-600 small">
+                                <i class="fas fa-envelope text-danger me-2"
+                                    style="margin-top: 5px;font-size: 12px;"></i>
+                                <a class="text-decoration-none text-gray-600 hover-text-danger"
+                                    href="mailto:example@email.com">
+                                    example@email.com
+                                </a>
+                            </p>
+                            <p class="d-flex align-items-start">
+                                <i class="fas fa-phone-alt text-danger me-2"
+                                    style="margin-top: 5px;font-size: 12px;"></i>
+                                <span style="font-size: 12px;color: gray;">+91 123 4567890</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-12 ">
+                        <div class="">
+                            <h3 class="mb-3 fs-5">Company</h3>
+                            <ul class="list-unstyled ">
+                                <li class="mb-2"><a class="" href="#">About Us</a></li>
+                                <li class="mb-2"><a class="" href="#">DeliveryInformation</a></li>
+                                <li class="mb-2"><a class="" href="#">Privacy Policy</a></li>
+                                <li class="mb-2"><a class="" href="#">Terms & Conditions</a></li>
+                                <li class="mb-2"><a class="" href="#">Contact Us</a></li>
+                                <li class="mb-2"><a class="" href="#">Support Center</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-12 ">
+                        <div class="">
+                            <h3 class="mb-3 fs-5">Category</h3>
+                            <ul class="list-unstyled small ">
+                                <li class="mb-2"><a class="" href="#">Dairy & Bakery</a></li>
+                                <li class="mb-2"><a href="#">Fruits & Vegetable</a></li>
+                                <li class="mb-2"><a href="#">Snack & Spice</a> </li>
+                                <li class="mb-2"><a href="#">Juice & Drinks</a></li>
+                                <li class="mb-2"><a href="#">Chicken & Meat</a></li>
+                                <li class="mb-2"><a href="#">Fast Food</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div>
+                            <h3 class="mb-3 fs-5">
+                                Subscribe Our Newsletter
+                            </h3>
+                            <form class="d-flex align-items-center mb-3">
+                                <input class="form-control rounded px-3 py-1 me-2 " placeholder="Search here.."
+                                    type="text" />
+                                <button aria-label="Send newsletter subscription" class="btn  fs-5" type="submit">
+                                    <i class="fas fa-paper-plane"></i>
+                                </button>
+                            </form>
+                            <div class="d-flex gap-3 mb-3">
+                                <a aria-label="Facebook" href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a aria-label="Twitter" class="text-gray-500 hover-text-gray-900" href="#"><i
+                                        class="fab fa-twitter"></i></a>
+                                <a aria-label="Dribbble" href="#"><i class="fab fa-dribbble"></i></a>
+                                <a aria-label="Instagram" href="#"><i class="fab fa-instagram"></i></a>
+                            </div>
+                            <div class="row g-2">
+                                <div class="col">
+                                    <img alt="Small image of fresh vegetables in a basket" class="img-fluid rounded"
+                                        src="https://storage.googleapis.com/a1aa/image/b0e2f62e-e26a-433d-f13a-ea7c18c3a698.jpg" />
+                                </div>
+                                <div class="col">
+                                    <img alt="Small image of assorted fresh vegetables and fruits"
+                                        class="img-fluid rounded"
+                                        src="https://storage.googleapis.com/a1aa/image/dc690329-3d7b-418c-5f1b-3a911382c4dc.jpg" />
+                                </div>
+                                <div class="col">
+                                    <img alt="Small image of fresh vegetables with nuts and spices"
+                                        class="img-fluid rounded"
+                                        src="https://storage.googleapis.com/a1aa/image/a1554f52-c216-45f7-cac9-ce07c24dd672.jpg" />
+                                </div>
+                                <div class="col">
+                                    <img alt="Small image of fresh red vegetables and herbs" class="img-fluid rounded"
+                                        src="https://storage.googleapis.com/a1aa/image/1cd0895b-ae7d-4887-a35e-c07453ce0ebe.jpg" />
+                                </div>
+                                <div class="col">
+                                    <img alt="Small image of fresh green vegetables and fruits"
+                                        class="img-fluid rounded"
+                                        src="https://storage.googleapis.com/a1aa/image/a2bfa6a8-efb6-440b-c492-7eedb50e7dde.jpg" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr class="m-0" />
+            </div>
+            <p class="py-4 m-0 text-center">&copy; <span style="color:#F53E32">Furniro </span>All rights reserved.</p>
+        </footer>
+    </section>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

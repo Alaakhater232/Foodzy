@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="images/image.png" />
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/cart.css" />
+    <title>Foodzy</title>
+</head>
+
+<body>
+    <!-- header  -->
+    <section class="header pt-3">
+        <div class="top-header">
+            <div class="container d-flex align-items-center justify-content-between pb-3 ">
+                <a class="navbar-brand fw-bold" href="#">Foodzy</a>
+                <nav class="navbar navbar-expand-lg bg-body-light">
+                    <div class="container-fluid">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            <div class="dropdown">
+                                <button class="btn  dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Category
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </div>
+                            <div class="dropdown">
+                                <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                                    aria-expanded="true">
+                                    Products
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </div>
+                            <div class="dropdown">
+                                <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Pages
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="home-1.html">Home-1</a></li>
+                                    <li><a class="dropdown-item" href="home-2.html">Home-2</a></li>
+                                    <li><a class="dropdown-item" href="home-3.html">Home-3</a></li>
+                                </ul>
+                            </div>
+                            <div class="dropdown">
+                                <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Blog
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="blog.html">blog</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </div>
+                            <div class="dropdown">
+                                <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Element
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+                </nav>
+                <div class="contact-top-header d-flex align-items-center gap-2 d-none d-lg-block ">
+                    <span class=""><i class="fa-solid fa-phone"></i></span>
+                    <span class="">+123 (456) (7890)</span>
+                </div>
+            </div>
+
+        </div>
+        <div class="bottom-header pt-2 pb-0">
+            <div
+                class="container d-flex flex-column flex-lg-row gap-5 align-items-center justify-content-between ps-0 pb-3">
+                <div class="logo-bottom-header d-flex align-items-center ">
+                    <img width="100px" src="images/image.png" alt="">
+                    <div class="name-project">
+                        <h3 class="fw-bold mb-0">Foodzy</h3>
+                        <h6>A Treasure of Tastes</h6>
+                    </div>
+                </div>
+                <div class="search-box w-75 ">
+                    <form class="d-flex border border-1 rounded-3 py-1 ps-3" role="search">
+                        <input class="form-control me-2 border-0 px-0" type="search" placeholder="Search For items..."
+                            aria-label="Search">
+                        <div class="dropdown border-start border-1">
+                            <button class="btn  dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Category
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </div>
+                        <button class="btn rounded-start-0 rounded-3" style="background-color: #F53E32;" type="submit">
+                            <i class="fa-solid fa-magnifying-glass text-light"></i>
+                        </button>
+                    </form>
+                </div>
+                <div class="icons-bottom-header d-flex align-items-center justify-content-evenly gap-lg-1 w-50">
+                    <div class="i d-md-flex align-items-center">
+                        <i class="fa-solid fa-user me-1"></i>
+                        <span class="fw-bold">Account</span>
+                    </div>
+                    <div class="i d-md-flex align-items-center">
+                        <i class="fa-regular fa-heart me-1"></i>
+                        <span class="fw-bold">Wishlist</span>
+                    </div>
+                    <div class="i d-md-flex align-items-center">
+                        <i class="fa-solid fa-cart-shopping me-1"></i>
+                        <span class="fw-bold">Cart</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="top py-3 text-white" style="background-color: #f53e32">
+        <div class="container d-flex justify-content-between align-items-center">
+            <p class="m-0 fw-bold">Cart</p>
+            <nav aria-label="breadcrumb" class="nav-breadcrumb">
+                <ol class="breadcrumb mb-0">
+                    <li class="breadcrumb-item">
+                        <a href="#" class="text-decoration-none text-white">Home</a>
+                    </li>
+                    <li class="breadcrumb-item text-white active" aria-current="page">Cart                    </li>
+                </ol>
+            </nav>
+        </div>
+    </div>
+    <!-- cart section  -->
+    <section class="cart">
+        <div class="container pt-5 table-responsive">
+            <table class="table table-hover">
+                <thead class="text-white">
+                    <th class="text-start">Product</th>
+                    <th class="text-center">Price</th>
+                    <th class="text-center">Quantity</th>
+                    <th class="text-center">Total</th>
+                    <th class="text-end">Action</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="align-middle">
+                            <div class="d-flex flex-column align-items-start gap-2">
+                                <img src="images/cart-imgs/1.png" alt="" style="width: 80px;height: 80px;">
+                                <p class="mb-0">Organic Lemon</p>
+                            </div>
+                        </td>
+                        <td class="align-middle text-center">$56.00</td>
+                        <td class="align-middle">
+                            <div
+                                class="d-flex justify-content-between align-items-center border border-1 rounded-2 overflow-hidden mx-auto">
+                                <button class="border-0 border-end bg-transparent" style="width: 25px;">+</button>
+                                <span class="px-2">1</span>
+                                <button class="border-0 border-start bg-transparent" style="width: 25px;">-</button>
+                            </div>
+                        </td>
+                        <td class="align-middle text-center">$56.00</td>
+                        <td class="align-middle">
+                            <div class="delete text-end p-2">
+                                <img src="images/delete.png" alt="" class="cursor-pointer">
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="align-middle">
+                            <div class="d-flex flex-column align-items-start gap-2">
+                                <img src="images/cart-imgs/2.png" alt="" style="width: 80px;height: 80px;">
+                                <p class="mb-0">Apple Juice</p>
+                            </div>
+                        </td>
+                        <td class="align-middle text-center">$75.00</td>
+                        <td class="align-middle">
+                            <div
+                                class="d-flex justify-content-between align-items-center border border-1 rounded-2 overflow-hidden mx-auto">
+                                <button class="border-0 border-end bg-transparent" style="width: 25px;">+</button>
+                                <span class="px-2">1</span>
+                                <button class="border-0 border-start bg-transparent" style="width: 25px;">-</button>
+                            </div>
+                        </td>
+                        <td class="align-middle text-center">$75.00</td>
+                        <td class="align-middle">
+                            <div class="delete text-end p-2">
+                                <img src="images/delete.png" alt="" class="cursor-pointer">
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="align-middle">
+                            <div class="d-flex flex-column align-items-start gap-2">
+                                <img src="images/cart-imgs/3.png" alt="" style="width: 80px;height: 80px;">
+                                <p class="mb-0">Watermelon 5kg Pack</p>
+                            </div>
+                        </td>
+                        <td class="align-middle text-center">$48.00</td>
+                        <td class="align-middle">
+                            <div
+                                class="d-flex justify-content-between align-items-center border border-1 rounded-2 overflow-hidden mx-auto">
+                                <button class="border-0 border-end bg-transparent" style="width: 25px;">+</button>
+                                <span class="px-2">1</span>
+                                <button class="border-0 border-start bg-transparent" style="width: 25px;">-</button>
+                            </div>
+                        </td>
+                        <td class="align-middle text-center">$48.00</td>
+                        <td class="align-middle">
+                            <div class="delete text-end p-2">
+                                <img src="images/delete.png" alt="" class="cursor-pointer">
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="align-middle">
+                            <div class="d-flex flex-column align-items-start gap-2">
+                                <img src="images/cart-imgs/4.png" alt="" style="width: 80px;height: 80px;">
+                                <p class="mb-0">Pomegranate 5kg Pack</p>
+                            </div>
+                        </td>
+                        <td class="align-middle text-center">$90.00</td>
+                        <td class="align-middle">
+                            <div
+                                class="d-flex justify-content-between align-items-center border border-1 rounded-2 overflow-hidden mx-auto">
+                                <button class="border-0 border-end bg-transparent" style="width: 25px;">+</button>
+                                <span class="px-2">1</span>
+                                <button class="border-0 border-start bg-transparent" style="width: 25px;">-</button>
+                            </div>
+                        </td>
+                        <td class="align-middle text-center">$90.00</td>
+                        <td class="align-middle">
+                            <div class="delete text-end p-2">
+                                <img src="images/delete.png" alt="" class="cursor-pointer">
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="align-middle ">
+                            <div class="d-flex flex-column align-items-start gap-2">
+                                <img src="images/cart-imgs/1.png" alt="" style="width: 80px;height: 80px;">
+                                <p class="mb-0">Organic Peach Fruits</p>
+                            </div>
+                        </td>
+                        <td class="align-middle text-center">$50.00</td>
+                        <td class="align-middle">
+                            <div
+                                class="d-flex justify-content-between align-items-center border border-1 rounded-2 overflow-hidden mx-auto">
+                                <button class="border-0 border-end bg-transparent" style="width: 25px;">+</button>
+                                <span class="px-2">1</span>
+                                <button class="border-0 border-start bg-transparent" style="width: 25px;">-</button>
+                            </div>
+                        </td>
+                        <td class="align-middle text-center">$50.00</td>
+                        <td class="align-middle">
+                            <div class="delete text-end p-2">
+                                <img src="images/delete.png" alt="" class="cursor-pointer">
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="container btns-controls mt-5">
+            <div class="d-flex flex-column flex-sm-row gap-3 align-items-center">
+                <button class="btn w-50 w-sm-25 w-lg-25"><a href="#" class="text-decoration-none text-white">Continue
+                        Shopping</a></button>
+                <button class="btn w-50 w-sm-25 w-lg-25"><a href="#" class="text-decoration-none text-white">Check
+                        Out</a></button>
+            </div>
+        </div>
+    </section>
+    <!-- popular-products section  -->
+    <section class="popular-products py-4">
+        <h2 class="text-center pb-3">Popular Products</h2>
+        <p class="w-75 mx-auto text-center">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus architecto quod, error deserunt
+            excepturi ad autem, necessitatibus assumenda aliquid dolor, sunt amet. Dolores quasi minus, perspiciatis
+            animi sed voluptatem obcaecati.
+        </p>
+        <div class="container">
+            <div class="row mb-3 gap-3 gap-md-0 flex-column flex-sm-row flex-lg-row justify-content-start">
+                <div class="product col-12 col-md-4  col-lg-4">
+                    <div class="product-card border rounded p-3">
+                        <div class="product-img text-center">
+                            <img src="images/cart-imgs/1.png" class="w-100" alt="">
+                        </div>
+                        <div class="product-info">
+                            <h4 class="text-center fs-5 py-2">Best snakes with hazel nut mix
+                                pack 200gm
+                            </h4>
+                            <div class="discount d-flex justify-content-center align-items-center gap-3">
+                                <p><span class="fw-bold fs-5" style="color: #f53e32;">$120.25</span></p>
+                                <p><span class="text-decoration-line-through text-body-tertiary">$123.25</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="product col-12 col-md-4  col-lg-4">
+                    <div class="product-card border rounded p-3">
+                        <div class="product-img text-center">
+                            <img src="images/cart-imgs/2.png" class="w-100" alt="">
+                        </div>
+                        <div class="product-info">
+                            <h4 class="text-center fs-5 py-2">Best snakes with hazel nut mix
+                                pack 200gm
+                            </h4>
+                            <div class="discount d-flex justify-content-center align-items-center gap-3">
+                                <p><span class="fw-bold fs-5" style="color: #f53e32;">$120.25</span></p>
+                                <p><span class="text-decoration-line-through text-body-tertiary">$123.25</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="product col-12 col-md-4  col-lg-4">
+                    <div class="product-card border rounded p-3">
+                        <div class="product-img text-center">
+                            <img src="images/cart-imgs/3.png" class="w-100" alt="">
+                        </div>
+                        <div class="product-info">
+                            <h4 class="text-center fs-5 py-2">Best snakes with hazel nut mix
+                                pack 200gm
+                            </h4>
+                            <div class="discount d-flex justify-content-center align-items-center gap-3">
+                                <p><span class="fw-bold fs-5" style="color: #f53e32;">$120.25</span></p>
+                                <p><span class="text-decoration-line-through text-body-tertiary">$123.25</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row gap-3 gap-md-0 flex-column flex-sm-row flex-lg-row justify-content-start">
+                <div class="product col-12 col-md-4  col-lg-4">
+                    <div class="product-card border rounded p-3">
+                        <div class="product-img text-center">
+                            <img src="images/cart-imgs/4.png" class="w-100" alt="">
+                        </div>
+                        <div class="product-info">
+                            <h4 class="text-center fs-5 py-2">Best snakes with hazel nut mix
+                                pack 200gm
+                            </h4>
+                            <div class="discount d-flex justify-content-center align-items-center gap-3">
+                                <p><span class="fw-bold fs-5" style="color: #f53e32;">$120.25</span></p>
+                                <p><span class="text-decoration-line-through text-body-tertiary">$123.25</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="product col-12 col-md-4  col-lg-4">
+                    <div class="product-card border rounded p-3">
+                        <div class="product-img text-center">
+                            <img src="images/cart-imgs/1.png" class="w-100" alt="">
+                        </div>
+                        <div class="product-info">
+                            <h4 class="text-center fs-5 py-2">Best snakes with hazel nut mix
+                                pack 200gm
+                            </h4>
+                            <div class="discount d-flex justify-content-center align-items-center gap-3">
+                                <p><span class="fw-bold fs-5" style="color: #f53e32;">$120.25</span></p>
+                                <p><span class="text-decoration-line-through text-body-tertiary">$123.25</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="product col-12 col-md-4  col-lg-4">
+                    <div class="product-card border rounded p-3">
+                        <div class="product-img text-center">
+                            <img src="images/cart-imgs/1.png" class="w-100" alt="">
+                        </div>
+                        <div class="product-info">
+                            <h4 class="text-center fs-5 py-2">Best snakes with hazel nut mix
+                                pack 200gm
+                            </h4>
+                            <div class="discount d-flex justify-content-center align-items-center gap-3">
+                                <p><span class="fw-bold fs-5" style="color: #f53e32;">$120.25</span></p>
+                                <p><span class="text-decoration-line-through text-body-tertiary">$123.25</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- footer  -->
+    <section class="footer" style="background-color: #F7F7F8;">
+        <footer class="mt-5 pt-5 position-relative overflow-hidden font-poppins">
+            <div class="container">
+                <div class="row row-cols-1 row-cols-md-4 g-4">
+                    <div class="col-12">
+                        <div class="">
+                            <div class="d-flex align-items-center mb-3">
+                                <img width="50px" src="images/logo.png" alt="">
+                                <div class="name-project">
+                                    <h3 class="fw-bold mb-0" style="font-size: 16px;">Foodzy</h3>
+                                    <h6 style="font-size: 12px;color: gray;">A Treasure of Tastes</h6>
+                                </div>
+                            </div>
+                            <p style="font-size: 12px;color: gray;">
+                                FoodTrove is the biggest market of grocery products. Get your
+                                daily needs from our store.
+                            </p>
+                            <div class="d-flex align-items-start">
+                                <i class="fas fa-map-marker-alt text-danger me-2"
+                                    style="margin-top: 5px;font-size: 12px;"></i>
+                                <span style="font-size: 12px;color: gray;">51 Green St. Huntington Ohio Beach Ontario,
+                                    NY 11746 KY 4783,USA.</span>
+                            </div>
+                            <p class="">
+
+                            </p>
+                            <p class="d-flex align-items-center text-gray-600 small">
+                                <i class="fas fa-envelope text-danger me-2"
+                                    style="margin-top: 5px;font-size: 12px;"></i>
+                                <a class="text-decoration-none text-gray-600 hover-text-danger"
+                                    href="mailto:example@email.com">
+                                    example@email.com
+                                </a>
+                            </p>
+                            <p class="d-flex align-items-start">
+                                <i class="fas fa-phone-alt text-danger me-2"
+                                    style="margin-top: 5px;font-size: 12px;"></i>
+                                <span style="font-size: 12px;color: gray;">+91 123 4567890</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-12 ">
+                        <div class="">
+                            <h3 class="mb-3 fs-5">Company</h3>
+                            <ul class="list-unstyled ">
+                                <li class="mb-2"><a class="" href="#">About Us</a></li>
+                                <li class="mb-2"><a class="" href="#">DeliveryInformation</a></li>
+                                <li class="mb-2"><a class="" href="#">Privacy Policy</a></li>
+                                <li class="mb-2"><a class="" href="#">Terms & Conditions</a></li>
+                                <li class="mb-2"><a class="" href="#">Contact Us</a></li>
+                                <li class="mb-2"><a class="" href="#">Support Center</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-12 ">
+                        <div class="">
+                            <h3 class="mb-3 fs-5">Category</h3>
+                            <ul class="list-unstyled small ">
+                                <li class="mb-2"><a class="" href="#">Dairy & Bakery</a></li>
+                                <li class="mb-2"><a href="#">Fruits & Vegetable</a></li>
+                                <li class="mb-2"><a href="#">Snack & Spice</a> </li>
+                                <li class="mb-2"><a href="#">Juice & Drinks</a></li>
+                                <li class="mb-2"><a href="#">Chicken & Meat</a></li>
+                                <li class="mb-2"><a href="#">Fast Food</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div>
+                            <h3 class="mb-3 fs-5">
+                                Subscribe Our Newsletter
+                            </h3>
+                            <form class="d-flex align-items-center mb-3">
+                                <input class="form-control rounded px-3 py-1 me-2 " placeholder="Search here.."
+                                    type="text" />
+                                <button aria-label="Send newsletter subscription" class="btn  fs-5" type="submit">
+                                    <i class="fas fa-paper-plane"></i>
+                                </button>
+                            </form>
+                            <div class="d-flex gap-3 mb-3">
+                                <a aria-label="Facebook" href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a aria-label="Twitter" class="text-gray-500 hover-text-gray-900" href="#"><i
+                                        class="fab fa-twitter"></i></a>
+                                <a aria-label="Dribbble" href="#"><i class="fab fa-dribbble"></i></a>
+                                <a aria-label="Instagram" href="#"><i class="fab fa-instagram"></i></a>
+                            </div>
+                            <div class="row g-2">
+                                <div class="col">
+                                    <img alt="Small image of fresh vegetables in a basket" class="img-fluid rounded"
+                                        src="https://storage.googleapis.com/a1aa/image/b0e2f62e-e26a-433d-f13a-ea7c18c3a698.jpg" />
+                                </div>
+                                <div class="col">
+                                    <img alt="Small image of assorted fresh vegetables and fruits"
+                                        class="img-fluid rounded"
+                                        src="https://storage.googleapis.com/a1aa/image/dc690329-3d7b-418c-5f1b-3a911382c4dc.jpg" />
+                                </div>
+                                <div class="col">
+                                    <img alt="Small image of fresh vegetables with nuts and spices"
+                                        class="img-fluid rounded"
+                                        src="https://storage.googleapis.com/a1aa/image/a1554f52-c216-45f7-cac9-ce07c24dd672.jpg" />
+                                </div>
+                                <div class="col">
+                                    <img alt="Small image of fresh red vegetables and herbs" class="img-fluid rounded"
+                                        src="https://storage.googleapis.com/a1aa/image/1cd0895b-ae7d-4887-a35e-c07453ce0ebe.jpg" />
+                                </div>
+                                <div class="col">
+                                    <img alt="Small image of fresh green vegetables and fruits"
+                                        class="img-fluid rounded"
+                                        src="https://storage.googleapis.com/a1aa/image/a2bfa6a8-efb6-440b-c492-7eedb50e7dde.jpg" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr class="m-0" />
+            </div>
+            <p class="py-4 m-0 text-center">&copy; <span style="color:#F53E32">Furniro </span>All rights reserved.</p>
+        </footer>
+    </section>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,84 @@
+a {
+    text-decoration: none !important;
+    color: gray;
+}
+.nav-breadcrumb .breadcrumb li::before {
+    color: #fff;
+}
+.form-check-input:checked,
+.form-check-input:focus{
+    background-color: #f53e32 !important;
+    border-color: #f53e32 !important;
+    box-shadow: none !important;
+    outline: none !important;
+}
+textarea {
+    resize: none;
+}
+textarea:focus,
+input:focus {
+    outline-color: none !important;
+    box-shadow: none !important;
+    border-color: #f53e32 !important;
+    background-color: transparent !important;
+}
+input::placeholder {
+    color: #909294 !important;
+}
+select:focus {
+    outline-color: none !important;
+    box-shadow: none !important;
+    background-color: transparent !important;
+}
+select option:hover {
+    background-color: #fff !important;
+} 
+/* header  */
+.top-header  {
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1) !important;
+}
+.dropdown-toggle {
+  border: none !important;
+  outline: none !important;
+}
+.dropdown-toggle:hover,
+.dropdown-toggle:focus {
+  border: none !important;
+  outline: none !important;
+  background-color: transparent;
+}
+
+.dropdown-menu {
+  opacity: 0;
+  transform: translateY(10px);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  display: block;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.dropdown-menu.show {
+  opacity: 1;
+  transform: translateY(0);
+  visibility: visible;
+  pointer-events: auto;
+}
+.btn {
+    border: none !important;
+    outline: none !important;
+}
+.btn:hover, 
+.btn:hover {
+    border: none !important;
+    outline: none !important;
+}
+input:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+.search-box {
+    width: 55%;
+}
+.search-box form {
+    padding-block: 0px !important;
+}
